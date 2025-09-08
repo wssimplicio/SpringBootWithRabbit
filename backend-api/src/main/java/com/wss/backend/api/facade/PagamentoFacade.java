@@ -20,4 +20,12 @@ public class PagamentoFacade {
         }
         return "Pagamento aguardando confirmacao....";
     }
+
+    public void erroPagamento(String payload) {
+        System.err.println("===== RESPOSTA DE ERROR =====" + payload);
+    }
+
+    public void successPagamento(String payload) {
+        System.out.println("===== RESPOSTA DE SUCESSO =====" + payload);
+    }
 }

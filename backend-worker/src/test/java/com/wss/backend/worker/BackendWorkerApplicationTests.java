@@ -1,4 +1,4 @@
-package com.wss.backend_worker;
+package com.wss.backend.worker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
